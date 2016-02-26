@@ -4,12 +4,71 @@
 		<title>MSI - IFCE Camocim</title>
 		<meta charset="utf-8"/>
 		<style>
-		.container { margin: 0 auto; width: 500px;}
+		body {
+			margin: 0;
+			padding: 0;
+		}
+		#barra-topo {
+			position: fixed;
+			width: 100%;
+			height: 30px;
+			background-color: green;
+		}
+		.container {
+			margin: 0 auto;
+			width: 600px;
+			padding-top: 50px;
+			font-family: arial;
+		}
+		.cabecalho {
+			overflow: auto;
+			padding-bottom: 10px;
+		}
+		.cabecalho .logotipo {
+			width: 291px;
+			float: left;
+		}
+		.cabecalho .logotipo span {
+			display: block;
+			margin: 0 auto;
+			width: 115px;
+			clear: both;
+		}
+		.cabecalho .titulo {
+			width: 309px;
+			float: left;
+		}
+		.conteudo {
+			border-top: solid 1px green;
+		}
 		</style>
 	</head>
 	<body>
+		<div id="barra-topo">
+		
+		</div>
 		<div class="container">
-			<h1>MSI - Suporte de Manutenção de Computadores - IFCE Camocim</h1>
+			<div class="cabecalho">
+				<div class="logotipo">
+					<img src="img/ifce.jpg" width="291" height="257"/>
+					<span>Camocim<span>
+				</div>
+				<div class="titulo">
+					<h1>MSI</h1>
+					<h2>Manutenção e Suporte de Computadores</h2>
+				</div>
+			</div>
+			<div class="conteudo">
+				<ul>
+					<h3>Links Úteis:</h3>
+					<ul>
+						<h3>Manutenção e Suporte de Informática</h3>
+						<li><a href="#">Link Teste</a></li>
+						
+					</ul>
+				</ul>
+			
+			</div>
 		</div>
 	</body>
 </html>
